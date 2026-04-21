@@ -1,0 +1,24 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: PicoTechnology.Picoscope.Automotive.EA
+PackageVersion: 7.2.18.8584
+InstallerType: burn
+Scope: machine
+Protocols:
+- picoauto
+FileExtensions:
+- pddata
+- picoauto
+ProductCode: '{5485aa25-6323-49f0-ad83-932b5b745}'
+ReleaseDate: 2026-04-21
+AppsAndFeaturesEntries:
+- UpgradeCode: '{550419CA-B518-474B-82CD-2D407754CFBF}'
+Installers:
+- Architecture: x64
+  InstallerUrl: https://www.picoauto.com/download/software/beta/PicoScope_7_Automotive_Early_Access_7.2.18.8584.x64.exe
+  InstallerSha256: B2EBF91910FB6D05D2EACEAF6B31E0F36C80E20CA56021BF514C3B18A25BF3CF
+ManifestType: installer
+ManifestVersion: 1.10.0
+
+
