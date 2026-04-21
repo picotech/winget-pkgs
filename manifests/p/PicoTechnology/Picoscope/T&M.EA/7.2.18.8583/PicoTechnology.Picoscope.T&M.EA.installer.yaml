@@ -1,0 +1,22 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: PicoTechnology.Picoscope.T&M.EA
+PackageVersion: 7.2.18.8583
+InstallerType: burn
+Scope: machine
+FileExtensions:
+- psdata
+- pssettings
+ProductCode: '{5486323-49f0-ad83-932b5b748f}'
+ReleaseDate: 2026-04-21
+AppsAndFeaturesEntries:
+- UpgradeCode: '{0B565FC2-0997-4E2E-959C-0396DFD9AD8C}'
+Installers:
+- Architecture: x64
+  InstallerUrl: https://www.picotech.com/download/software/beta/PicoScope_7_TandM_Early_Access_7.2.18.8583.x64.exe
+  InstallerSha256: 849079CA624CF5C718396733FB0E0C858A8F11EBD4C6104DFBC946D0690D1FC6
+ManifestType: installer
+ManifestVersion: 1.10.0
+
+
