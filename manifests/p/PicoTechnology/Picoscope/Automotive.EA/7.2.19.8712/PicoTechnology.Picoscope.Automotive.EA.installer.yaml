@@ -10,10 +10,10 @@ Protocols:
 FileExtensions:
 - pddata
 - picoauto
-ProductCode: '{5485aa25-6323-49f0-ad83-932b5b745}'
+ProductCode: '{a9370d9d-d8db-4de9-8bb6-7a18c14e692c}'
 ReleaseDate: 2026-04-21
 AppsAndFeaturesEntries:
-- UpgradeCode: '{550419CA-B518-474B-82CD-2D407754CFBF}'
+- UpgradeCode: '{315B9B63-3A89-4B9F-8BEF-79D1E1DEA5D1}'
 Installers:
 - Architecture: x64
   InstallerUrl: https://www.picoauto.com/download/software/beta/PicoScope_7_Automotive_Early_Access_7.2.19.8712.x64.exe
