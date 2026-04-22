@@ -1,0 +1,81 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.10.0.schema.json
+
+PackageIdentifier: PicoTechnology.Picoscope.T&M.EA
+PackageVersion: 7.2.19.8711
+PackageLocale: en-US
+Publisher: Pico Technology Ltd.
+PublisherUrl: https://www.picotech.com/
+PublisherSupportUrl: https://www.picotech.com/tech-support
+PrivacyUrl: https://www.picotech.com/about/legal-information
+Author: Pico Technology Ltd.
+PackageName: PicoScope T&M EA
+PackageUrl: https://www.picotech.com/products/picoscope-7-software
+License: Proprietary
+LicenseUrl: https://www.picotech.com/about/legal-information
+Copyright: Copyright © 1995-2025, Pico Technology Ltd.
+CopyrightUrl: https://www.picotech.com/about/legal-information
+ShortDescription: The next-generation user interface for all non-automotive USB PC Oscilloscopes, including all the analysis tools you need to get answers quickly, whether carrying out a simple test, or debugging a complex design.
+Moniker: picoscope-tnm
+Tags:
+- oscilloscope
+ReleaseNotes: |
+  Story changes:
+   *  Automate AOSD2 file generation [BLD-800]
+   *  Hook up predefined properties in our code to provide use of AppInsights tooling [UI-19118]
+   *  Append Devices used to the Session End Summary Analytic [UI-19142]
+   *  Implement batch conversion analytics [UI-19240]
+   *  Channel at Trigger Measurement [UI-19341]
+   *  Clean Up Red Team Feature Flags [UI-19375]
+   *  Record Analytics for DeepMeasure Lozenge Feature Usage [UI-19563]
+   *  Record Analytics for Maths Lozenge Feature Usage [UI-19564]
+   *  Record Analytics for Reference Waveforms Lozenge Feature Usage [UI-19566]
+   *  Enable Trigger when changing/selecting the Trigger type [UI-7368]
+  
+  Task changes:
+   *  Add 5464E & 5464EMSO parameter entries for device gherkin tests [SFH-2876]
+   *  Make 5000E P1 Launch products supported in PS7 [SFH-2901]
+   *  5000E Plus models - PS7 Updates + EMC Readiness [SFH-3012]
+   *  5000E Plus models - Gherkin Updates [SFH-3013]
+   *  Add Bulldog Support to Guided Tests [UI-18708]
+   *  UI/UX: Apply settings behaviour [UI-19274]
+   *  UI/UX: Conversation text streaming  [UI-19344]
+   *  Pass Context to the LLM [UI-19404]
+  
+  Bug fixes:
+   *  Chat session persists after logout/login [UI-19376]
+   *  [WPF, maybe all][Crash] An InvalidOperationException can sometimes occur when changing measurement channel after updating fixed level value [UI-19401]
+   *  [ARM64][Windows] Installing ARM64 when x64 is present or vice versa results in corrupt install [UI-19435]
+   *  AI response continues after "New Chat" button is triggered [UI-19460]
+  
+  Other changes:
+   *  Add Time/Ch @ Ch Edge Measurements & Ch @ Trigger [UI-19139]
+   *  [WPF, GTK, maybe All] Waveform capturing becomes static after calibrating device with digital channel enabled [UI-19453]
+   *  Update Action (feature) strings to enum or string const [UI-19555]
+   *  Crash when clicking New Chat button after error. [UI-19576]
+   *  [Gherkin] LogicTrigger.ThresholdModeIsAvailableIsFalseWhenOnTriggerModeNone failed [UI-19626]
+   *  Fix disposal of WPF views to avoid memory leaks [UI-4595]
+  
+  Unknown changes:
+   *  main_PLHE-1456_AddMemoryManagementWithTranslator []
+  
+  Driver and library versions:
+  psospa     1.0.183-bmain5913 -> 1.0.185-bmain5925
+  picocv     1.1.43.443 -> 1.1.43.443
+  picoipp    1.4.1-bmain45 -> 1.4.1-bmain45
+  ps2000     3.0.152-bmain6217 -> 3.0.152-bmain6217
+  ps2000a    2.2.158-bmain6596 -> 2.2.158-bmain6596
+  ps3000     4.0.151-bmain6217 -> 4.0.151-bmain6217
+  ps3000a    2.2.160-bmain7569 -> 2.2.160-bmain7569
+  ps4000     2.1.153-bmain6217 -> 2.1.153-bmain6217
+  ps4000a    2.2.239-bmain7862 -> 2.2.239-bmain7862
+  ps5000     2.1.152-bmain6217 -> 2.1.152-bmain6217
+  ps5000a    2.2.16-bmain5110 -> 2.2.16-bmain5110
+  ps6000     2.1.152-bmain6217 -> 2.1.152-bmain6217
+  ps6000a    2.0.164-bmain207 -> 2.0.164-bmain207
+Documentations:
+- DocumentLabel: Knowledge Base
+  DocumentUrl: https://www.picotech.com/library/knowledge-bases/oscilloscopes
+ManifestType: defaultLocale
+ManifestVersion: 1.10.0
+
